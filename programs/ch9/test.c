@@ -16,5 +16,6 @@ int main ()
   for (n=0; n<6; n++)
      printf ("%d ",values[n]);
     system("pause");
+    
   return 0;
 }
