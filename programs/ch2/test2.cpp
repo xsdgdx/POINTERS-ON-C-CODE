@@ -1,15 +1,10 @@
+#include<stdlib.h>
 #include<stdio.h>
-int a()
+int main()
 {
-int value = 1;
-return value;
-}
-int b(int (*a)())
-{
-return a();
-}
-void main()
-{
-int i = b(a);
-printf("%d",i);
+double d;
+char str[] = "123.456";
+d=atof(str);
+printf("string=%s double=%lf\n",str,d);
+return 0;
 }
